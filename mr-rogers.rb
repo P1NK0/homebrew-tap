@@ -5,20 +5,20 @@
 class MrRogers < Formula
   desc "Get a friendly quote from Mr. Rogers in your terminal."
   homepage "https://github.com/P1NK0/mr-rogers"
-  version "1.0.6"
+  version "1.0.8"
 
   on_macos do
     on_intel do
-      url "https://github.com/P1NK0/mr-rogers/releases/download/v1.0.6/mr-rogers_1.0.6_darwin_amd64.tar.gz"
-      sha256 "864574a5b8f9f0ee32eb5861cdd43aab6a1c67f6e9f68ff2f799a5fe90551afc"
+      url "https://github.com/P1NK0/mr-rogers/releases/download/v1.0.8/mr-rogers_1.0.8_darwin_amd64.tar.gz"
+      sha256 "b2b16aef0629e47d1ac6cebedc1940934eac814b3ca0ff461bcce00fbb868be2"
 
       def install
         bin.install "mr-rogers"
       end
     end
     on_arm do
-      url "https://github.com/P1NK0/mr-rogers/releases/download/v1.0.6/mr-rogers_1.0.6_darwin_arm64.tar.gz"
-      sha256 "8d3c53591401812da75530c34e059bd197fc60de7c40e01c1c1abd1024d10984"
+      url "https://github.com/P1NK0/mr-rogers/releases/download/v1.0.8/mr-rogers_1.0.8_darwin_arm64.tar.gz"
+      sha256 "73a7cddafda2022aa0246332221b8125d6c7fbee02ea58eba03b7b26f6592a4a"
 
       def install
         bin.install "mr-rogers"
@@ -29,8 +29,8 @@ class MrRogers < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/P1NK0/mr-rogers/releases/download/v1.0.6/mr-rogers_1.0.6_linux_amd64.tar.gz"
-        sha256 "494276ffceaf51e766df87b08bb5e56f718e7e3196685511e18785d41bd5fb8a"
+        url "https://github.com/P1NK0/mr-rogers/releases/download/v1.0.8/mr-rogers_1.0.8_linux_amd64.tar.gz"
+        sha256 "8a19a779247a78a67dd6a6df99126b24328b5ed1bc7b74a6347e6479ef2be00d"
 
         def install
           bin.install "mr-rogers"
@@ -39,8 +39,8 @@ class MrRogers < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/P1NK0/mr-rogers/releases/download/v1.0.6/mr-rogers_1.0.6_linux_arm64.tar.gz"
-        sha256 "f787c24a171d16318e0008435f1327204f0bed80b550119df25a456115c7338e"
+        url "https://github.com/P1NK0/mr-rogers/releases/download/v1.0.8/mr-rogers_1.0.8_linux_arm64.tar.gz"
+        sha256 "0b14b0d48daa332e935fda6c8d6c5ee32bcb7da05af58667c0677a928013f73e"
 
         def install
           bin.install "mr-rogers"
